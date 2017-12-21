@@ -11,6 +11,15 @@ var fVal = document.getElementById("task");
 var taskInput = document.getElementById("task");
 
 function addTask() {
+	
+	if(document.getElementById("task").value=="")
+		{
+			alert("Blank Value");
+		}
+	
+	else{
+		
+	
 
     this.namesList.push(document.getElementById("task").value);
 
@@ -61,6 +70,8 @@ function addTask() {
 
 
     document.getElementById("task").focus();
+		
+	}
 
 
 

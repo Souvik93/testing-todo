@@ -4,7 +4,7 @@
 	
 	border: 2px solid #3a2121;
 	
-   
+   margin-top: 10px;
 	
 	
 }
@@ -36,4 +36,29 @@ input {
 input[type=checkbox]
 {
 	margin:4px 4px 0;
+}
+
+
+.round-button {
+    display:block;
+    width:50px;
+    height:50px;
+    line-height:50px;
+    border: 2px solid #0D83DD;
+    border-radius: 50%;
+    color:#0D83DD;
+    text-align:center;
+    text-decoration:none;
+    background: white;
+    box-shadow: 0 0 3px #0D83DD;
+    font-size:20px;
+    font-weight:bold;
+}
+.round-button:hover {
+    background: #262626;
+}
+
+.fa-custom
+{
+	    padding-top: 2px;
 }

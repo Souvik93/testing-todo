@@ -1,0 +1,37 @@
+.form-control-custom
+{
+	border-radius: 10px;
+	
+   
+	
+	
+}
+
+.border
+{
+	padding-bottom: 10px;
+	border-bottom: 2px solid #0D83DD;
+}
+
+input {
+  border-image-source: linear-gradient(rgba(0, 51, 102, 0.5), rgba(0, 0, 51, 0.5));
+  border-width: 2pt;
+  border-image-slice: 1;
+}
+
+.well-modified
+{
+	box-shadow: 3px 3px 6px #0D83DD;
+	background-color: white;
+}
+
+.myBtn
+{
+	margin-left: 5px;
+	padding:1px 2px;
+}
+
+input[type=checkbox]
+{
+	margin:4px 4px 0;
+}
